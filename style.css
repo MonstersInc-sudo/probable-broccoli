@@ -1,0 +1,30 @@
+:root {
+    --pale-blue: 225,100%,94%;
+    --bright-blue: 245, 75%,52%;
+
+    --very-pale-blue: 225,100%,98%;
+    --desaturated-blue: 224,23%,55%;
+    --dark-blue: 223,47%,23%;
+
+    --clr-pale-blue: hsl(var(--pale-blue));
+    --clr-bright-blue: hsl(var(--bright-blue));
+
+    --clr-neutral-very-pale-blue: hsl(var(--very-pale-blue));
+    --clr-neutral-desaturated-blue: hsl(var(--desaturated-blue));
+    --clr-neutral-dark-blue: hsl(var(--dark-blue));
+
+    --default-font: 'Red Hat Display', sans-serif;
+
+    --fw-normal: 400;
+    --fw-bold: 700;
+    --fw-black: 900;
+
+    --fs-300: 0.875rem;
+    --fs-350: 1rem;
+    --fs-400: 1.125rem;
+    --fs-500: 1.25rem;
+    --fs-600: 1.5rem;
+    --fs-700: 1.75rem;
+    --fs-800: 2rem;
+    --fs-900: 5rem;
+}
