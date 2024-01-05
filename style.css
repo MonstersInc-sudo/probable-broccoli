@@ -106,7 +106,7 @@
     border-radius: 1rem;
     background-color: var(--clr-neutral-very-pale-blue);
     max-width: 22rem;
-    gap: 0.5rem;
+    gap: 1rem;
   }
 
   .order-summary-image {
@@ -125,7 +125,18 @@
   .plan-container {
     display: flex;
     align-items: center;
+    background-color: hsl(var(--pale-blue),.4);
+    padding: .5rem 1rem;
+    border-radius: .5rem;
+    gap: 3rem;
+    justify-content: space-between;
 
+  }
+  .plan-info-container {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+    align-items: center;
   }
 
   .plan-information {
@@ -142,4 +153,47 @@
   .plan-price {
     grid-row-start: 2;
     grid-row-end: 3;
+  }
+
+  .change-link {
+    text-decoration: underline var(--clr-bright-blue);
+    color: var(--clr-bright-blue);
+    padding: .2rem;
+  }
+
+  .change-link:hover {
+    color: hsl(var(--bright-blue),.7);
+    text-decoration: underline hsl(var(--bright-blue),.7);
+    cursor: pointer;
+    
+  }
+
+  .button-payment {
+    padding: .5rem 4rem;
+    background-color: var(--clr-bright-blue);
+    border-radius: .5rem;
+    display: inline-block;
+    color: var(--clr-neutral-very-pale-blue);
+    box-shadow: 0rem 0.5rem .5rem hsl(var(--bright-blue),.1);
+    border: none;
+  }
+
+  .button-payment:hover {
+    cursor: pointer;
+    background-color: hsl(var(--bright-blue),.7);
+  }
+
+  .button-cancel {
+    background-color: transparent;
+    outline: none;
+    border: none;
+    color: var(--clr-neutral-desaturated-blue);
+    font-size: var(--fs-350);
+    padding-bottom: 2rem;
+
+  }
+
+  .button-cancel:hover {
+    color: var(--clr-neutral-dark-blue);
+    cursor: pointer;
   }
